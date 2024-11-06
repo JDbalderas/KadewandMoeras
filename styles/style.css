@@ -1,0 +1,134 @@
+@import url("https://use.typekit.net/odk8kdn.css");
+
+h2 {
+    font-size: 1.3rem;
+}
+
+p {
+    font-size:1rem;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+li {
+    margin-right: 3rem;
+    margin-block: 1rem;
+}
+
+a {
+    color: white;
+}
+
+body {
+    font-family: "itc-avant-garde-gothic-pro", sans-serif;
+    color:white;
+    font-weight:lighter;
+    background-color:rgb(1 119 188);
+}
+
+header {
+    display: flex;
+    background-color:rgb(90, 187, 87);
+    padding-block: 0.4rem;
+    padding-inline: 0.4rem;
+    margin-top: 1rem;
+    justify-content:center;
+    align-content:center;
+    border-radius:1rem;
+    position: fixed;
+    width: 90%;
+    top: 0;
+    z-index: 999;
+}
+
+footer {
+    display: flex;
+    background-color:rgb(38 44 100);
+    padding-inline: 0.05rem;
+    padding-block: 1rem;
+    margin-inline: -1rem;
+}
+
+.home {
+    background-image: url(../images/KWprojectcontent.png);
+    height: 17rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ecosysteem {
+    background-image: url(../images/kwfoto1.png);
+    height: 17rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.stad {
+    background-image: url(../images/kwfoto2.png);
+    height: 17rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title {
+    margin-top:12rem;
+    font-size: large;
+}
+
+div {
+    margin-top: 2rem;
+    margin-bottom: 5rem;  
+    padding-right: 1rem;  
+}
+
+.wat > img {
+    position: absolute;
+    z-index: -1;
+    margin-top:-2rem;
+    left:0px;
+    right:0px;
+}
+
+.water > img {
+    position: absolute;
+    z-index: -1;
+    margin-top: -5rem;
+    left:0px;
+    right:0px;
+}
+
+.waarom > img {
+    position: absolute;
+    z-index: -1;
+    margin-top:-3rem;
+    left:0px;
+    right:0px;
+}
+
+.ecosysteem h1 {
+    margin-top: 13rem;
+}
+
+.stad h1 {
+    margin-top: 13rem;
+}
+
+main a {
+    margin-left: 1rem;
+}
+
+.stad div {
+    margin-bottom: 10rem;
+}
+
+.subtitel {
+    margin-top: 2rem;
+}
