@@ -100,7 +100,7 @@ div {
 .water > img {
     position: absolute;
     z-index: -1;
-    margin-top: -5rem;
+    margin-top: -4.5rem;
     left:0px;
     right:0px;
 }
