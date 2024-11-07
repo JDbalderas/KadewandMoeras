@@ -92,7 +92,7 @@ div {
 .wat > img {
     position: absolute;
     z-index: -1;
-    margin-top:-2rem;
+    margin-top:-1.8rem;
     left:0px;
     right:0px;
 }
